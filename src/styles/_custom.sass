@@ -114,7 +114,8 @@ figcaption, table caption
     .crd_hover_txt--body
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
       transform: translateY(0)
-      background-color: #83DFE0
+      border-radius: 20px
+      background-color: #FFF9E6
       // opacity: 0.8
       h4
         color: $color-sistema-texto
@@ -125,7 +126,8 @@ figcaption, table caption
     bottom: 0
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: #83DFE0
+    border-radius: 20px
+    background-color: #FFF9E6
     h4
       color: $color-sistema-texto
     &.bg-color-2
@@ -320,31 +322,33 @@ figcaption
   border-radius: 15px
 
 .bg-fondo-04
-  // background-image: url("../assets/curso/tema1/bg04.png") !important
+  background-image: url("../assets/curso/tema1/img03.png") !important
   background-position: center
   background-size: cover
   border-radius: 15px
 
 .bg-fondo-05
-  // background-image: url("../assets/curso/tema1/bg06.png") !important
+  background-image: url("../assets/curso/tema1/img08.png") !important
   background-position: center
   background-size: cover
   border-radius: 15px
 
 .bg-fondo-07
-  // background-image: url("../assets/curso/tema1/bg08.png") !important
+  background-image: url("../assets/curso/tema1/img24.png") !important
   background-position: center
   background-size: cover
   border-radius: 15px
 
 .bg-fondo-08
-  // background-image: url("../assets/curso/tema1/bg07.png") !important
+  background-image: url("../assets/curso/tema1/img27.png") !important
   background-position: center
-  background-size: cover
+  background-size: 100% 100%
   border-radius: 15px
+  @media screen and (max-width: $bp-max-md)
+    background-size: cover
 
 .bg-fondo-09
-  // background-image: url("../assets/curso/tema2/bg10.png") !important
+  background-image: url("../assets/curso/tema2/img02.png") !important
   background-position: center
   background-size: cover
   border-radius: 15px
@@ -532,13 +536,13 @@ figcaption
 
 // Tabs A
 .tabs-a__tab
-  background-color: #B2DCFF !important
+  background-color: #EDFDFF !important
   white-space: normal
   height: stretch
   // color: # !important
 .tabs-a.color-acento-botones .tabs-a__tab__selected
-  background-color: #3FA8FE !important
-  color: $color-sistema-texto !important
+  background-color: #39A900 !important
+  color: #fff !important
 .tabs-a__content-item
   display: flex
   height: 97%
@@ -553,7 +557,8 @@ figcaption
     .tabs-a__tab__selected,
     .tabs-a__tab__selected:before,
     .tabs-a__tab:hover
-      background-color: #3FA8FE
+      background-color: #39A900
+      color: #fff !important
 
   // Ajuste tamaño contenedor izquierdo Tabs A
   @media (min-width: 1200px)
@@ -682,7 +687,7 @@ figcaption
   // background-image: url("../assets/curso/tema2/img19.png") !important
   background-size: cover
   background-position: center
-  background-color: #D7D7D8 !important
+  background-color: #CAF7FD !important
   &.azul
     background-color: #DFF5FB !important
 
@@ -810,8 +815,8 @@ a, button, div
 .bg-white
   background-color: #ffffff
 
-.bg-color-0
-  background-color: #EBF7FF
+.bg-color-00
+  background-color: #CAF7FD
 
 .bg-color-01
   background-color: #B2DCFF
@@ -820,23 +825,29 @@ a, button, div
       background-color: #7500D3
 
 .bg-color-02
-  background-color: #D7D7D8
+  background-color: #FFF9E6
+  &.cajon
+    &::before
+      background-color: #FBC311
 
 .bg-color-05-degrade
   // #FAFAFA y #F5F5F5 
   background: linear-gradient(180deg, #FAFAFA 0%, #F5F5F5 100%)
 
 .bg-color-03
-  background-color: #DFDA9D
+  background-color: #EDFDFF
   &.bg-color-nuevo
     .acordion__accion__btn--a i, .acordion__accion__btn--b i
       color: $color-sistema-texto
 
 .bg-color-04
-  background-color: #00F6EA
+  background-color: #F0E9F1
+  &.cajon
+    &::before
+      background-color: #71277B
 
 .bg-color-06
-  background-color: #FFDCBD
+  background-color: #39A900
 
 .bg-color-07
   background-color: #FFFAE6
@@ -845,7 +856,7 @@ a, button, div
       background-color: #FFCA00
 
 .bg-color-08
-  background-color: #FFA85B
+  background-color: #71277B
 
 .bg-color-09
   background-color: #FBEDFE
@@ -854,7 +865,10 @@ a, button, div
       background-color: #D800FF
 
 .bg-color-10
-  background-color: #83DFE0
+  background-color: #EBF6E5
+  &.cajon
+    &::before
+      background-color: #39A900
 
 .bg-color-12
   background-color: #F8DBFD
@@ -972,7 +986,7 @@ a, button, div
   background-color: #C5CFF0
 
 .tarjeta.color-acento-botones--borde
-  background-color: #CDF2F3
+  background-color: #EBF6E5
   // background-image: url("../assets/curso/tema1/bg04.png") !important
   background-size: cover
   background-position: buttom
@@ -980,14 +994,14 @@ a, button, div
   border: solid 1px transparent !important
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected:before
-  background-color: #3FA8FE !important
+  background-color: #39A900 !important
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected:hover
-  background-color: #3FA8FE !important
+  background-color: #39A900 !important
 
 .tabs-a.color-acento-botones .tabs-a__tab:hover
-  background-color: #3FA8FE !important
-  color: $color-sistema-texto !important
+  background-color: #39A900 !important
+  color: #fff !important
 
   //////////////CUSTON SLYDER-A////////
 .slyder-a__bullets__item
@@ -1017,17 +1031,17 @@ a, button, div
   border-radius: 10px
   padding: 50px
   margin-top: -60px
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2)
   padding: 20px
-  border-radius: 8px; /* Opcional, para bordes redondeados */
+  border-radius: 8px
 
   @media screen and (max-width: $bp-max-sm)
     margin-top: -10px
 
 .tabla-a thead
-  background-color: #FFFAEE
+  background-color: #39A900
 .tabla-a.color-acento-contenido thead
-  border-color: #AEA30C !important
+  border-color: #EBF6E5 !important
 
 .tabla-a td
   text-align: start !important
@@ -1041,8 +1055,8 @@ a, button, div
   align-items: center
 
 .titulo-con-imagen__fondo
-  // dergadado lineal #C7D9F9 y #F0F5FD 180deg
-  background: linear-gradient(to right, #C7D9F9 0%, #F0F5FD 100%)
+  // dergadado lineal ##EBF6E5 - #EDFDFF - #FFFFFF
+  background: linear-gradient(to right, #EBF6E5 0%, #EDFDFF 60%, #FFFFFF 100%)
   border-radius: 18px
   padding: 10px 25px 10px 20px
   display: inline-flex
@@ -1051,35 +1065,37 @@ a, button, div
 
 .titulo-con-imagen__fondo_2
   // dergadado lineal #C7D9F9 y #F0F5FD 180deg
-  // background: linear-gradient(to right, #C7D9F9 0%, #F0F5FD 100%)
-  border: 1px solid #74A2F2
+  background-color: #EBF6E5 !important
+  // border: 1px solid #74A2F2
   border-radius: 18px
   padding: 10px 25px 10px 20px
   display: inline-flex
   align-items: center
   margin-left: -11px
+  position: relative
+
 .titulo-con-imagen__texto_2
   margin: 0
-  // padding-left: 70px
+  padding-left: 45px
   position: relative
   &::before
     content: ""
     position: absolute
-    right: -4px
-    bottom: -40%
+    right: -30px
+    bottom: 90%
     transform: translateY(50%)
-    width: 40px
+    width: 20px
     height: 30px
-    background-image: url("../assets/curso/icono-subtitulo.svg")
+    background-image: url("../assets/curso/img-subtitulo.svg")
     background-size: 100% 100%
 
 .titulo-con-imagen__imagen
   position: absolute
-  left: -8px
-  width: 90px
+  left: 0px
+  width: 45px
 .titulo-con-imagen__texto
   margin: 0
-  padding-left: 70px
+  padding-left: 45px
   position: relative
   &::before
     content: ""
@@ -1089,7 +1105,7 @@ a, button, div
     transform: translateY(50%)
     width: 40px
     height: 30px
-    background-image: url("../assets/curso/icono-subtitulo.svg")
+    // background-image: url("../assets/curso/icono-subtitulo.svg")
     background-size: 100% 100%
 
 .img-topright
@@ -1125,10 +1141,10 @@ a, button, div
 .acordion .tarjeta .acordion__contenido
   padding-left: 0px !important
 .acordion__accion__btn--b
-  background-color: #FFA85B !important
-  border: 1px solid #FFA85B !important
+  background-color: #00304D !important
+  border: 1px solid #00304D !important
 .acordion__accion__btn--a i, .acordion__accion__btn--b i
-  color: $color-sistema-texto
+  color: $white
 
 .lista-ul
   li
@@ -1335,10 +1351,13 @@ a, button, div
   border: 4px solid #FFFFFF !important
 
 .slyder-f .slyder-f__btn
-  background-color: #00F6EA
+  background-color: #00304D
 
-// .slyder-f .slyder-f__btn .fa-chevron-left, .slyder-f .slyder-f__btn .fa-chevron-right
-  // color: #FFFFFF !important
+.slyder-f .slyder-f__btn .fa-chevron-left, .slyder-f .slyder-f__btn .fa-chevron-right
+  color: #FFFFFF !important
+
+.tarjeta-flip.tarjeta .tarjeta-flip__img, .tarjeta-flip.tarjeta .tarjeta-flip__contenido
+  background-color: #EBF6E5 !important
 
 ///// slyder --------------------------------------
 .tarjeta--slyder
@@ -1430,8 +1449,8 @@ a, button, div
   table
     // min-width: 100%
   thead
-    border-top: 5px solid #3FA8FE !important
-    background-color: #EBF6FF !important
+    border-top: 5px solid #39A900 !important
+    background-color: #EBF6E5 !important
     border-bottom: none !important
     border-left: none !important
     border-right: none !important
@@ -1504,3 +1523,6 @@ a, button, div
 
 //   @media screen and (max-width: $bp-max-md)
 //     display: none
+
+.barra-avance__boton--regresar span
+  color: #fff !important
