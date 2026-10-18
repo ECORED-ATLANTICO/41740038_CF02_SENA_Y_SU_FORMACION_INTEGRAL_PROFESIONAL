@@ -370,7 +370,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5.text-bold.mb-2 Figura 3.
-          span Rutas normativas para peticiones, acceso a información, datos personales y lineamientos institucionales[M
+          span Rutas normativas para peticiones, acceso a información, datos personales y lineamientos institucionales
         img.mb-0(data-aos="fade-right", src="@/assets/curso/tema3/img29.svg", alt="La figura 3 describe la 4 rutas normativas para peticiones, acceso a información, datos personales y lineamientos institucionales.").mx-auto.d-none.d-lg-block
         img.mb-0(data-aos="fade-right", src="@/assets/curso/tema3/img30.svg", alt="La figura 3 describe la 4 rutas normativas para peticiones, acceso a información, datos personales y lineamientos institucionales.").mx-auto.d-lg-none
 
