@@ -344,12 +344,12 @@
           .tarjeta.h-100.d-flex.flex-column
             img(src="@/assets/curso/tema4/img25.png", alt="")
             .bg-color-07.p-4.br-25.flex-grow-1
-              p.mb-0 #[b Igualdad en la atención] no significa necesariamente utilizar la misma forma de interacción en todas las situaciones.
+              p.mb-0 #[b Igualdad en la atención]: no significa necesariamente utilizar la misma forma de interacción en todas las situaciones.
         .col-lg-6.col-md-12.mb-4.mb-lg-0(data-aos="fade-left")
           .tarjeta.h-100.d-flex.flex-column
             img(src="@/assets/curso/tema4/img26.png", alt="")
             .bg-color-07.p-4.br-25.flex-grow-1
-              p.mb-0 #[b Equidad en la atención] implica reconocer condiciones diferentes y aplicar las medidas pertinentes para favorecer el acceso efectivo al servicio.
+              p.mb-0 #[b Equidad en la atención]: implica reconocer condiciones diferentes y aplicar las medidas pertinentes para favorecer el acceso efectivo al servicio.
 
       separador
       

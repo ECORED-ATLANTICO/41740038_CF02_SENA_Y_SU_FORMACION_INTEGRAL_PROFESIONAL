@@ -229,7 +229,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/41740038_CF02_DU.pdf',
+        download: 'downloads/41740038_CF02_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -404,7 +404,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional G06. Responsable Ecosistema de Recursos Educativos Digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -419,12 +419,12 @@ export default {
       autores: [
         {
           nombre: 'Nicolas Cruz',
-          cargo: 'Experto temático',
+          cargo: 'Experto temático logística',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Rosmery Conde',
-          cargo: 'Evaluadora instruccional',
+          cargo: 'Experto temático comercio y servicio',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

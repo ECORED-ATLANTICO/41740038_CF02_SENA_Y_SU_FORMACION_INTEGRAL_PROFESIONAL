@@ -62,7 +62,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted inicia la atención comprendiendo la necesidad antes de definir la actuación o la ruta institucional.',
+            'Usted inicia la atención comprendiendo la necesidad antes de definir la actuación o la ruta institucional.',
           mensaje_incorrecto:
             'Revise el diagnóstico de requerimientos del capítulo 1. Primero comprenda quién solicita, qué necesita y qué actuación puede corresponder.',
         },
@@ -99,7 +99,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted centra la atención en comprender la necesidad y relacionarla con la actuación institucional pertinente.',
+            'Usted centra la atención en comprender la necesidad y relacionarla con la actuación institucional pertinente.',
           mensaje_incorrecto:
             'Repase servicio público y atención centrada en el ciudadano en el capítulo 1. La orientación debe partir de la necesidad concreta de la persona.',
         },
@@ -132,7 +132,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted reconoce que una respuesta de calidad debe proporcionarse en un momento que permita atender efectivamente la necesidad.',
+            'Usted reconoce que una respuesta de calidad debe proporcionarse en un momento que permita atender efectivamente la necesidad.',
           mensaje_incorrecto:
             'Revise los atributos de una respuesta institucional de calidad en el capítulo 1. Distinga la oportunidad de la claridad, pertinencia y fundamentación.',
         },
@@ -169,7 +169,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted reconoce que la atención puede considerar condiciones particulares sin apartarse de los lineamientos institucionales.',
+            'Usted reconoce que la atención puede considerar condiciones particulares sin apartarse de los lineamientos institucionales.',
           mensaje_incorrecto:
             'Revise atención centrada en el ciudadano y respuesta diferencial. Igualdad no significa ignorar barreras que afectan el acceso al servicio.',
         },
@@ -206,7 +206,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted utiliza lenguaje claro al organizar y explicar la información de manera comprensible y útil para la persona.',
+            'Usted utiliza lenguaje claro al organizar y explicar la información de manera comprensible y útil para la persona.',
           mensaje_incorrecto:
             'Revise lenguaje claro en el capítulo 2. Una respuesta clara permite comprender qué se responde, por qué y qué debe hacerse después, cuando corresponda.',
         },
@@ -242,7 +242,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted aplica una comunicación asertiva al reconocer la situación, verificarla y orientar sin escalar el conflicto.',
+            'Usted aplica una comunicación asertiva al reconocer la situación, verificarla y orientar sin escalar el conflicto.',
           mensaje_incorrecto:
             'Repase manejo de situaciones de conflicto en el capítulo 2. Separe a la persona del problema y oriente la conversación hacia la necesidad y la información verificable.',
         },
@@ -279,7 +279,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted reconoce los criterios que permiten revisar la calidad formal y comunicativa de una respuesta escrita.',
+            'Usted reconoce los criterios que permiten revisar la calidad formal y comunicativa de una respuesta escrita.',
           mensaje_incorrecto:
             'Revise las normas de producción escrita del capítulo 2. Valore el propósito, la organización, la precisión, la corrección y el tono de la comunicación.',
         },
@@ -316,7 +316,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted reconoce que la respuesta se construye a partir de la comprensión y verificación del requerimiento antes de comunicarla.',
+            'Usted reconoce que la respuesta se construye a partir de la comprensión y verificación del requerimiento antes de comunicarla.',
           mensaje_incorrecto:
             'Repase construcción y comunicación de respuestas en el capítulo 2. La redacción no es el punto de partida; primero se comprende y verifica la situación.',
         },
@@ -352,7 +352,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted reconoce que la naturaleza de una petición depende de su contenido y finalidad, no únicamente del nombre utilizado.',
+            'Usted reconoce que la naturaleza de una petición depende de su contenido y finalidad, no únicamente del nombre utilizado.',
           mensaje_incorrecto:
             'Revise derecho de petición en el capítulo 3. Analice qué solicita realmente la persona antes de definir el tratamiento correspondiente.',
         },
@@ -389,7 +389,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted articula transparencia y protección de datos al analizar qué información puede suministrarse y bajo qué condiciones.',
+            'Usted articula transparencia y protección de datos al analizar qué información puede suministrarse y bajo qué condiciones.',
           mensaje_incorrecto:
             'Repase transparencia y protección de datos en el capítulo 3. El acceso a información pública no implica divulgar libremente datos sometidos a protección.',
         },
@@ -426,7 +426,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted relaciona el tratamiento de datos con la finalidad, el fundamento aplicable y las condiciones de seguridad.',
+            'Usted relaciona el tratamiento de datos con la finalidad, el fundamento aplicable y las condiciones de seguridad.',
           mensaje_incorrecto:
             'Revise protección de datos personales en el capítulo 3. Tener acceso a un dato no autoriza su utilización o divulgación para cualquier finalidad.',
         },
@@ -461,7 +461,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted comprende que la norma orienta la decisión y que el procedimiento institucional permite llevarla a la práctica.',
+            'Usted comprende que la norma orienta la decisión y que el procedimiento institucional permite llevarla a la práctica.',
           mensaje_incorrecto:
             'Revise aplicación de la normativa en el capítulo 3. Relacione la norma con el requerimiento, el procedimiento y la competencia institucional.',
         },
@@ -497,7 +497,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted utiliza el mapa de procesos para relacionar la necesidad con los procesos y sus interrelaciones.',
+            'Usted utiliza el mapa de procesos para relacionar la necesidad con los procesos y sus interrelaciones.',
           mensaje_incorrecto:
             'Repase mapas de procesos en el capítulo 4. Su utilidad está en comprender cómo una necesidad se relaciona con las actuaciones de la entidad.',
         },
@@ -534,7 +534,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted reconoce que un requerimiento puede involucrar un proceso relacionado y otros procesos articulados.',
+            'Usted reconoce que un requerimiento puede involucrar un proceso relacionado y otros procesos articulados.',
           mensaje_incorrecto:
             'Revise interrelación de procesos en el capítulo 4. Identifique el proceso principal y determine qué otros pueden aportar a la gestión.',
         },
@@ -571,7 +571,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted construye la ruta a partir de la necesidad, el marco aplicable, el proceso y la competencia institucional.',
+            'Usted construye la ruta a partir de la necesidad, el marco aplicable, el proceso y la competencia institucional.',
           mensaje_incorrecto:
             'Repase construcción de rutas en el capítulo 4. Direccionar no consiste en escoger rápidamente una dependencia, sino en sustentar la ruta.',
         },
@@ -608,7 +608,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted aplica el enfoque territorial al considerar condiciones del entorno que pueden afectar el acceso a la atención.',
+            'Usted aplica el enfoque territorial al considerar condiciones del entorno que pueden afectar el acceso a la atención.',
           mensaje_incorrecto:
             'Revise enfoque territorial en el capítulo 4. Considere ubicación, conectividad y canales disponibles sin alterar arbitrariamente las competencias o procedimientos.',
         },
@@ -645,7 +645,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted reconoce que los sistemas de información apoyan el registro, consulta y actualización de datos necesarios para la gestión.',
+            'Usted reconoce que los sistemas de información apoyan el registro, consulta y actualización de datos necesarios para la gestión.',
           mensaje_incorrecto:
             'Repase sistemas de información institucional en el capítulo 5. Su uso debe apoyar la gestión mediante información pertinente y responsable.',
         },
@@ -682,7 +682,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted distingue el estado actual de una gestión de la posibilidad de reconstruir las actuaciones realizadas.',
+            'Usted distingue el estado actual de una gestión de la posibilidad de reconstruir las actuaciones realizadas.',
           mensaje_incorrecto:
             'Revise seguimiento y trazabilidad en el capítulo 5. Pregúntese: seguimiento, ¿en qué estado está?; trazabilidad, ¿qué recorrido tuvo?',
         },
@@ -719,7 +719,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted reconoce que el registro de las actuaciones contribuye al seguimiento, la trazabilidad y la calidad de la gestión.',
+            'Usted reconoce que el registro de las actuaciones contribuye al seguimiento, la trazabilidad y la calidad de la gestión.',
           mensaje_incorrecto:
             'Repase seguimiento y calidad en el capítulo 5. Una respuesta no se completa únicamente con su comunicación; las actuaciones requeridas deben quedar registradas.',
         },
@@ -756,7 +756,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted integra criterios que permiten valorar tanto el contenido de la respuesta como la gestión que la sustenta.',
+            'Usted integra criterios que permiten valorar tanto el contenido de la respuesta como la gestión que la sustenta.',
           mensaje_incorrecto:
             'Repase evaluación de la calidad en el capítulo 5. Considere la pertinencia, claridad, fundamento, oportunidad, integralidad, trazabilidad y seguridad de la respuesta.',
         },

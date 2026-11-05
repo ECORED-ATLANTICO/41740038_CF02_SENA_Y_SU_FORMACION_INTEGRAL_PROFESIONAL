@@ -201,6 +201,13 @@
         .col-lg
           p.mb-0 Para ello es importante diferenciar a la persona del problema que plantea. Una inconformidad puede estar relacionada con una demora, una expectativa no satisfecha, información insuficiente, desconocimiento de un procedimiento o una decisión institucional. Reconocer su origen contribuye a evitar respuestas defensivas y permite concentrar la atención en la situación que debe gestionarse.
 
+    
+    .container
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo_2
+          img.titulo-con-imagen__imagen(src="@/assets/curso/icono-subtitulo.png", style="width: 50px")
+          h3.titulo-con-imagen__texto_2 Ruta comunicativa ante una situación de conflicto 
+    
     .row.mb-lg-5.mb-4.justify-content-center.align-items-center
       .col-lg-3.col-md-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure

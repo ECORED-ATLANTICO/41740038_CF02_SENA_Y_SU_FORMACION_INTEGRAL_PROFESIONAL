@@ -392,7 +392,7 @@
               h4.text-bold Caso integrador
               p.mb-0 Lo invitamos a consultar el Anexo1_Caso_Integrador, a través del cual podrá aplicar todos los conocimientos adquiridos en el componente formativo Respuesta institucional y rutas de atención.
             .col-lg-auto.mt-3.mt-lg-0
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo1_Caso_Integrador.pdf')", target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo1_Caso_Integrador.pdf')", target="_blank")
                 span Ir al recurso
 
     .row.justify-content-center.align-items-center

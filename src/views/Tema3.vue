@@ -233,6 +233,13 @@
 
       p.mb-5 La norma define el tratamiento como las operaciones realizadas sobre datos personales, entre ellas la recolección, almacenamiento, uso, circulación o supresión. Por tanto, la protección de datos no se limita al momento en que se solicita información: comprende las diferentes actuaciones que pueden realizarse durante su gestión.
 
+ 
+    .container
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo_2
+          img.titulo-con-imagen__imagen(src="@/assets/curso/icono-subtitulo.png", style="width: 50px")
+          h3.titulo-con-imagen__texto_2 Principios para el tratamiento de datos personales
+          
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0.col-md-8.order-1.order-lg-2
         figure
